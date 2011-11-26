@@ -1,4 +1,4 @@
-# Block-Based NSURLConnection wrapper (for ARC projects)
+# Block-Based NSURLConnection Wrapper (For ARC Projects)
 
 ### Usage
 
