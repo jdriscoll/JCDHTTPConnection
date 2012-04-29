@@ -23,5 +23,5 @@ JCDHTTPConnection *connection = [[JCDHTTPConnection alloc] initWithRequest:reque
 
 ### Example Project
 
-The repository includes an example Xcode project that fetches URLS and displays the response.
+The repository includes an example Xcode project that fetches URLs and displays the response.
  
