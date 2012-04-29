@@ -7,17 +7,21 @@ A JCDHTTPConnection object is initialized with a NSURLRequest object and then ex
 ### Example
 
 ```objc    
-NSURLRequest *request = [[NSURLRequest alloc] initWithURL:[NSURL URLWithString:@"http://google.com"]];
+NSURLRequest *request = [[NSURLRequest alloc] initWithURL:[NSURL URLWithString:@"http://apple.com"]];
 
 JCDHTTPConnection *connection = [[JCDHTTPConnection alloc] initWithRequest:request];
 
 [connection executeRequestOnSuccess:
  ^(NSHTTPURLResponse *response, NSString *bodyString) {
-     NSLog(@"SUCCESS: %d", response.statusCode);
- } failure:^(NSURLResponse *response, NSString *bodyString, NSError *error) {
+     NSLog(@"SUCCESS: %d: %@", response.statusCode, bodyString);
+ } failure:^(NSHTTPURLResponse *response, NSString *bodyString, NSError *error) {
      NSLog(@"FAILURE: %@", error);
  } didSendData:^(NSInteger bytesWritten, NSInteger totalBytesWritten, NSInteger totalBytesExpectedToWrite) {
      NSLog(@"DID SEND DATA: %d", bytesWritten);
  }];
 ```
+
+### Example Project
+
+The repository includes an example Xcode project that fetches URLS and displays the response.
  
