@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0C93AA7154D6EF000F71BB7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C93AA6154D6EF000F71BB7 /* UIKit.framework */; };
+		D0C93AA9154D6EF000F71BB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C93AA8154D6EF000F71BB7 /* Foundation.framework */; };
+		D0C93AAB154D6EF000F71BB7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C93AAA154D6EF000F71BB7 /* CoreGraphics.framework */; };
+		D0C93AB1154D6EF000F71BB7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0C93AAF154D6EF000F71BB7 /* InfoPlist.strings */; };
+		D0C93AB3154D6EF000F71BB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C93AB2154D6EF000F71BB7 /* main.m */; };
+		D0C93AB7154D6EF000F71BB7 /* JCDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C93AB6154D6EF000F71BB7 /* JCDAppDelegate.m */; };
+		D0C93ABA154D6EF000F71BB7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0C93AB8154D6EF000F71BB7 /* MainStoryboard.storyboard */; };
+		D0C93ABD154D6EF000F71BB7 /* JCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C93ABC154D6EF000F71BB7 /* JCDViewController.m */; };
+		D0C93AC5154D700F00F71BB7 /* JCDHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C93AC4154D700F00F71BB7 /* JCDHTTPConnection.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D0C93AA2154D6EF000F71BB7 /* JCDHTTPConnectionExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JCDHTTPConnectionExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0C93AA6154D6EF000F71BB7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D0C93AA8154D6EF000F71BB7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D0C93AAA154D6EF000F71BB7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D0C93AAE154D6EF000F71BB7 /* JCDHTTPConnectionExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JCDHTTPConnectionExample-Info.plist"; sourceTree = "<group>"; };
+		D0C93AB0154D6EF000F71BB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0C93AB2154D6EF000F71BB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0C93AB4154D6EF000F71BB7 /* JCDHTTPConnectionExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JCDHTTPConnectionExample-Prefix.pch"; sourceTree = "<group>"; };
+		D0C93AB5154D6EF000F71BB7 /* JCDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCDAppDelegate.h; sourceTree = "<group>"; };
+		D0C93AB6154D6EF000F71BB7 /* JCDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCDAppDelegate.m; sourceTree = "<group>"; };
+		D0C93AB9154D6EF000F71BB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D0C93ABB154D6EF000F71BB7 /* JCDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCDViewController.h; sourceTree = "<group>"; };
+		D0C93ABC154D6EF000F71BB7 /* JCDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCDViewController.m; sourceTree = "<group>"; };
+		D0C93AC3154D700F00F71BB7 /* JCDHTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JCDHTTPConnection.h; path = ../../Classes/JCDHTTPConnection.h; sourceTree = "<group>"; };
+		D0C93AC4154D700F00F71BB7 /* JCDHTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JCDHTTPConnection.m; path = ../../Classes/JCDHTTPConnection.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0C93A9F154D6EF000F71BB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C93AA7154D6EF000F71BB7 /* UIKit.framework in Frameworks */,
+				D0C93AA9154D6EF000F71BB7 /* Foundation.framework in Frameworks */,
+				D0C93AAB154D6EF000F71BB7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0C93A97154D6EF000F71BB7 = {
+			isa = PBXGroup;
+			children = (
+				D0C93AAC154D6EF000F71BB7 /* JCDHTTPConnectionExample */,
+				D0C93AA5154D6EF000F71BB7 /* Frameworks */,
+				D0C93AA3154D6EF000F71BB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0C93AA3154D6EF000F71BB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0C93AA2154D6EF000F71BB7 /* JCDHTTPConnectionExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0C93AA5154D6EF000F71BB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0C93AA6154D6EF000F71BB7 /* UIKit.framework */,
+				D0C93AA8154D6EF000F71BB7 /* Foundation.framework */,
+				D0C93AAA154D6EF000F71BB7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0C93AAC154D6EF000F71BB7 /* JCDHTTPConnectionExample */ = {
+			isa = PBXGroup;
+			children = (
+				D0C93AC3154D700F00F71BB7 /* JCDHTTPConnection.h */,
+				D0C93AC4154D700F00F71BB7 /* JCDHTTPConnection.m */,
+				D0C93AB5154D6EF000F71BB7 /* JCDAppDelegate.h */,
+				D0C93AB6154D6EF000F71BB7 /* JCDAppDelegate.m */,
+				D0C93AB8154D6EF000F71BB7 /* MainStoryboard.storyboard */,
+				D0C93ABB154D6EF000F71BB7 /* JCDViewController.h */,
+				D0C93ABC154D6EF000F71BB7 /* JCDViewController.m */,
+				D0C93AAD154D6EF000F71BB7 /* Supporting Files */,
+			);
+			path = JCDHTTPConnectionExample;
+			sourceTree = "<group>";
+		};
+		D0C93AAD154D6EF000F71BB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0C93AAE154D6EF000F71BB7 /* JCDHTTPConnectionExample-Info.plist */,
+				D0C93AAF154D6EF000F71BB7 /* InfoPlist.strings */,
+				D0C93AB2154D6EF000F71BB7 /* main.m */,
+				D0C93AB4154D6EF000F71BB7 /* JCDHTTPConnectionExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0C93AA1154D6EF000F71BB7 /* JCDHTTPConnectionExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0C93AC0154D6EF000F71BB7 /* Build configuration list for PBXNativeTarget "JCDHTTPConnectionExample" */;
+			buildPhases = (
+				D0C93A9E154D6EF000F71BB7 /* Sources */,
+				D0C93A9F154D6EF000F71BB7 /* Frameworks */,
+				D0C93AA0154D6EF000F71BB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JCDHTTPConnectionExample;
+			productName = JCDHTTPConnectionExample;
+			productReference = D0C93AA2154D6EF000F71BB7 /* JCDHTTPConnectionExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0C93A99154D6EF000F71BB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JCD;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Retrobit, LLC";
+			};
+			buildConfigurationList = D0C93A9C154D6EF000F71BB7 /* Build configuration list for PBXProject "JCDHTTPConnectionExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D0C93A97154D6EF000F71BB7;
+			productRefGroup = D0C93AA3154D6EF000F71BB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0C93AA1154D6EF000F71BB7 /* JCDHTTPConnectionExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0C93AA0154D6EF000F71BB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C93AB1154D6EF000F71BB7 /* InfoPlist.strings in Resources */,
+				D0C93ABA154D6EF000F71BB7 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0C93A9E154D6EF000F71BB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C93AB3154D6EF000F71BB7 /* main.m in Sources */,
+				D0C93AB7154D6EF000F71BB7 /* JCDAppDelegate.m in Sources */,
+				D0C93ABD154D6EF000F71BB7 /* JCDViewController.m in Sources */,
+				D0C93AC5154D700F00F71BB7 /* JCDHTTPConnection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0C93AAF154D6EF000F71BB7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0C93AB0154D6EF000F71BB7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D0C93AB8154D6EF000F71BB7 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0C93AB9154D6EF000F71BB7 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0C93ABE154D6EF000F71BB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D0C93ABF154D6EF000F71BB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0C93AC1154D6EF000F71BB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JCDHTTPConnectionExample/JCDHTTPConnectionExample-Prefix.pch";
+				INFOPLIST_FILE = "JCDHTTPConnectionExample/JCDHTTPConnectionExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D0C93AC2154D6EF000F71BB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JCDHTTPConnectionExample/JCDHTTPConnectionExample-Prefix.pch";
+				INFOPLIST_FILE = "JCDHTTPConnectionExample/JCDHTTPConnectionExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0C93A9C154D6EF000F71BB7 /* Build configuration list for PBXProject "JCDHTTPConnectionExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0C93ABE154D6EF000F71BB7 /* Debug */,
+				D0C93ABF154D6EF000F71BB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0C93AC0154D6EF000F71BB7 /* Build configuration list for PBXNativeTarget "JCDHTTPConnectionExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0C93AC1154D6EF000F71BB7 /* Debug */,
+				D0C93AC2154D6EF000F71BB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0C93A99154D6EF000F71BB7 /* Project object */;
+}
