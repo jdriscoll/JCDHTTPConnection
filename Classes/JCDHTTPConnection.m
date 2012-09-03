@@ -28,13 +28,13 @@
     return [[NSString alloc] initWithData:self.data encoding:NSUTF8StringEncoding];
 }
 
-- (BOOL)executeRequestOnSuccess:(void (^)(NSHTTPURLResponse *, NSString *))onSuccessBlock
-                        failure:(void (^)(NSHTTPURLResponse *, NSString *, NSError *))onFailureBlock
-                    didSendData:(void (^)(NSInteger, NSInteger, NSInteger))onDidSendDataBlock
+- (BOOL)executeRequestOnSuccess:(OnSuccess)onSuccessBlock
+                        failure:(OnFailure)onFailureBlock
+                    didSendData:(OnDidSendData)onDidSendDataBlock
 {
-    self.onSuccess = (id)onSuccessBlock;
-    self.onFailure = (id)onFailureBlock;
-    self.onDidSendData = (id)onDidSendDataBlock;
+    self.onSuccess = onSuccessBlock;
+    self.onFailure = onFailureBlock;
+    self.onDidSendData = onDidSendDataBlock;
     
     [UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
     

@@ -5,9 +5,10 @@
 
 #import <Foundation/Foundation.h>
 
-typedef void (^OnSuccess) (NSHTTPURLResponse *, NSString *);
-typedef void (^OnFailure) (NSHTTPURLResponse *, NSString *, NSError *);
-typedef void (^OnDidSendData) (NSInteger, NSInteger, NSInteger);
+
+typedef void (^OnSuccess) (NSHTTPURLResponse *response, NSString *bodyString);
+typedef void (^OnFailure) (NSHTTPURLResponse *response, NSString *bodyString, NSError *error);
+typedef void (^OnDidSendData) (NSInteger bytesWritten, NSInteger totalBytesWritten, NSInteger totalBytesExpectedToWrite);
 
 
 @interface JCDHTTPConnection : NSObject
