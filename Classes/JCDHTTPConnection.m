@@ -5,14 +5,8 @@
 
 #import "JCDHTTPConnection.h"
 
-@implementation JCDHTTPConnection
 
-@synthesize request;
-@synthesize response;
-@synthesize data;
-@synthesize onSuccess;
-@synthesize onFailure;
-@synthesize onDidSendData;
+@implementation JCDHTTPConnection
 
 - (id)initWithRequest:(NSURLRequest *)urlRequest
 {
