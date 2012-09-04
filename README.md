@@ -17,6 +17,7 @@ JCDHTTPConnection *connection = [[JCDHTTPConnection alloc] initWithRequest:reque
  } failure:^(NSHTTPURLResponse *response, NSString *bodyString, NSError *error) {
      NSLog(@"FAILURE: %@", error);
  } didSendData:^(NSInteger bytesWritten, NSInteger totalBytesWritten, NSInteger totalBytesExpectedToWrite) {
+     // This is not going to be called in this example but it's included for completeness.
      NSLog(@"DID SEND DATA: %d", bytesWritten);
  }];
 ```
