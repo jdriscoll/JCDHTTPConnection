@@ -6,6 +6,20 @@
 #import "JCDHTTPConnection.h"
 
 
+@interface JCDHTTPConnection ()
+
+@property (strong, nonatomic) NSURLRequest *request;
+@property (strong, nonatomic) NSHTTPURLResponse *response;
+@property (strong, nonatomic) NSMutableData *data;
+@property (readonly) NSString *body;
+
+@property (copy, nonatomic) OnSuccess onSuccess;
+@property (copy, nonatomic) OnFailure onFailure;
+@property (copy, nonatomic) OnDidSendData onDidSendData;
+
+@end
+
+
 @implementation JCDHTTPConnection
 
 - (id)initWithRequest:(NSURLRequest *)urlRequest
