@@ -1,5 +1,7 @@
 # Block-Based NSURLConnection Wrapper (For ARC Projects)
 
+JCDHTTPConnection is a lightweight wrapper for NSURLConnection that provides a simple block callback API.
+
 ### Usage
 
 A JCDHTTPConnection object is initialized with a NSURLRequest object and then executeRequestOnSuccess:failure:didSendData is called on the connection to initiate the asynchronous request. The three callback blocks: onSuccess, onFailure and onDidSendData are all optional.
