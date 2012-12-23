@@ -10,13 +10,12 @@
 #import "JCDHTTPConnection.h"
 
 @interface JCDViewController ()
+@property (nonatomic, weak) IBOutlet UITextField *URLTextField;
+@property (nonatomic, weak) IBOutlet UILabel *statusLabel;
+@property (nonatomic, weak) IBOutlet UITextView *responseTextView;
 @end
 
 @implementation JCDViewController
-
-@synthesize URLTextField;
-@synthesize statusLabel;
-@synthesize responseTextView;
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {

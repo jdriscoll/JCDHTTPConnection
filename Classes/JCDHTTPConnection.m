@@ -8,14 +8,14 @@
 
 @interface JCDHTTPConnection ()
 
-@property (strong, nonatomic) NSURLRequest *request;
-@property (strong, nonatomic) NSHTTPURLResponse *response;
-@property (strong, nonatomic) NSMutableData *data;
-@property (readonly) NSString *body;
+@property (nonatomic, strong) NSURLRequest *request;
+@property (nonatomic, strong) NSHTTPURLResponse *response;
+@property (nonatomic, strong) NSMutableData *data;
+@property (nonatomic, readonly) NSString *body;
 
-@property (copy, nonatomic) OnSuccess onSuccess;
-@property (copy, nonatomic) OnFailure onFailure;
-@property (copy, nonatomic) OnDidSendData onDidSendData;
+@property (nonatomic, copy) OnSuccess onSuccess;
+@property (nonatomic, copy) OnFailure onFailure;
+@property (nonatomic, copy) OnDidSendData onDidSendData;
 
 @end
 

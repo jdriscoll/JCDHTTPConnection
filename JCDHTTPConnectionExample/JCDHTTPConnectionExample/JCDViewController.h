@@ -10,11 +10,4 @@
 
 @interface JCDViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UITextField *URLTextField;
-@property (weak, nonatomic) IBOutlet UILabel *statusLabel;
-@property (weak, nonatomic) IBOutlet UITextView *responseTextView;
-
-- (IBAction)go:(id)sender;
-- (IBAction)openProjectPage:(id)sender;
-
 @end
